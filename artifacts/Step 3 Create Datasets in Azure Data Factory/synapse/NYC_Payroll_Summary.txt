@@ -1,0 +1,22 @@
+{
+    "name": "NYC_Payroll_Summary",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "NYC_Payroll_Summary",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileSystem": "payrolsummary"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}

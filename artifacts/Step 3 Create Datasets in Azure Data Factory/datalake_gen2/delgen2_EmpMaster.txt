@@ -1,0 +1,37 @@
+{
+    "name": "delgen2_EmpMaster",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "adlsnycpayrollhitoshihk",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "EmpMaster.csv",
+                "folderPath": "dirpayrollfiles",
+                "fileSystem": "adlsnycpayroll"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "EmployeeID",
+                "type": "String"
+            },
+            {
+                "name": "LastName",
+                "type": "String"
+            },
+            {
+                "name": "FirstName",
+                "type": "String"
+            }
+        ]
+    }
+}
