@@ -1,0 +1,9 @@
+{
+	"name": "dirstaging",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "13f7930f-ce33-4330-a123-67470dc8f4e6",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
