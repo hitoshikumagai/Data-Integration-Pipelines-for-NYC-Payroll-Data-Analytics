@@ -7,3 +7,5 @@ You have been hired as a Data Engineer to create high-quality data pipelines tha
 
 The source data resides in Azure Data Lake and needs to be processed in a NYC data warehouse. The source datasets consist of CSV files with Employee master data and monthly payroll data entered by various City agencies.
 
+# Project submission
+Screenshot is avialable in artifacts dir.
